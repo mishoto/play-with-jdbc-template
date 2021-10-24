@@ -2,7 +2,7 @@ package dev.mihail.model;
 
 public class Project {
 
-    private int project_id;
+    private int p_id;
     private String p_title;
     private String p_description;
     private String p_link;
@@ -10,17 +10,18 @@ public class Project {
     public Project() {}
 
     public Project(String p_title, String p_description, String p_link) {
+
         this.p_title = p_title;
         this.p_description = p_description;
         this.p_link = p_link;
     }
 
     public int getProject_id() {
-        return project_id;
+        return p_id;
     }
 
-    public void setProject_id(int project_id) {
-        this.project_id = project_id;
+    public void setProject_id(int p_id) {
+        this.p_id = p_id;
     }
 
     public String getP_title() {
@@ -50,7 +51,7 @@ public class Project {
     @Override
     public String toString() {
         return "Project{" +
-                "project_id=" + project_id +
+                "project_id=" + p_id +
                 ", p_title='" + p_title + '\'' +
                 ", p_description='" + p_description + '\'' +
                 ", p_link='" + p_link + '\'' +

@@ -4,6 +4,3 @@ CREATE TABLE project (
     p_description varchar(500) NOT NULL,
     p_link varchar(255) NOT NULL
 );
---ENGINE = InnoDB
---DEFAULT CHARACTER SET = utf8
---COLLATE = utf8_general_ci
